@@ -1,0 +1,32 @@
+/*Custom Container Class */
+.ea-container {
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+@media(min-width: 768px){
+	.ea-container {
+		width:750px;
+	}
+}
+
+@media(min-width: 992px) {
+	.ea-container{
+		width:970px;
+	}
+}
+
+@media(min-width: 1200px) {
+	.ea-container {
+		width:1170px;
+	}
+}
+
+
+@media(min-width: 1600px) {
+	.ea-container {
+		width:1440px;
+	}
+}
